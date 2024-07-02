@@ -17,7 +17,7 @@ const TicTaeToe = () => {
     <div>
 
       <div style={{marginBottom:30}}>
-      <span>Board Size</span><input type="range" onChange={(e) => setBoardSize(e.target.value)}  value={TIC_TAC_TOE_SIZE} min={3} max={10}/> <button onClick={() => {handleReset(TIC_TAC_TOE_SIZE), setnewsize(TIC_TAC_TOE_SIZE)}}>OK</button>
+      <span>Board Size</span><input type="range" onChange={(e) => setBoardSize(e.target.value)}  value={TIC_TAC_TOE_SIZE} min={3} max={9}/> <button onClick={() => {handleReset(TIC_TAC_TOE_SIZE), setnewsize(TIC_TAC_TOE_SIZE)}}>OK</button>
 
       </div>
 
