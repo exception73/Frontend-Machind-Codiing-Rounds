@@ -9,6 +9,7 @@ import TicTaeToe from './Components/TicTacToe/TicTaeToe.jsx';
 import GridLight from './Components/GridLight/GridLight.jsx';
 import CustomMemoHook from './Components/UseMemo/CustomMemoHook.jsx';
 import CustomUseEffect from './Components/UseEffect/useEffect.jsx';
+import MultiTheme from './Components/MultiTheme/MultiTheme.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,9 @@ const router = createBrowserRouter([
   }, {
     path : "useEffect", 
     element : <CustomUseEffect />
+  }, {
+    path : "multitheme", 
+    element : <MultiTheme />
   }
 ]);
 

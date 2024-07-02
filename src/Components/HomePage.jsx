@@ -12,6 +12,7 @@ const HomePage = () => {
       <Link to="gridlight">GridLight</Link>
       <Link to="usememo">Custom UseMemo</Link>
       <Link to="useEffect">Custom useEffect</Link>
+      <Link to="multitheme">MultiTheme</Link>
     </div>
   );
 };
