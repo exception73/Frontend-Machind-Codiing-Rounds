@@ -6,6 +6,7 @@ import HomePage from './Components/HomePage';
 import PasswordGenerator from './Components/PasswordGenerator/PasswordGenerator.jsx';
 import Timer from './Components/Timer/Timer.jsx';
 import TicTaeToe from './Components/TicTacToe/TicTaeToe.jsx';
+import GridLight from './Components/GridLight/GridLight.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,9 @@ const router = createBrowserRouter([
   },{
     path : "tictactoe", 
     element : <TicTaeToe />
+  },{
+    path : "gridLight",
+    element : <GridLight />
   }
 ]);
 
