@@ -8,6 +8,7 @@ import Timer from './Components/Timer/Timer.jsx';
 import TicTaeToe from './Components/TicTacToe/TicTaeToe.jsx';
 import GridLight from './Components/GridLight/GridLight.jsx';
 import CustomMemoHook from './Components/UseMemo/CustomMemoHook.jsx';
+import CustomUseEffect from './Components/UseEffect/useEffect.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,9 @@ const router = createBrowserRouter([
   },{
     path : "usememo",
     element : <CustomMemoHook />
+  }, {
+    path : "useEffect", 
+    element : <CustomUseEffect />
   }
 ]);
 
