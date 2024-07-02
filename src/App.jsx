@@ -7,6 +7,7 @@ import PasswordGenerator from './Components/PasswordGenerator/PasswordGenerator.
 import Timer from './Components/Timer/Timer.jsx';
 import TicTaeToe from './Components/TicTacToe/TicTaeToe.jsx';
 import GridLight from './Components/GridLight/GridLight.jsx';
+import CustomMemoHook from './Components/UseMemo/CustomMemoHook.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,9 @@ const router = createBrowserRouter([
   },{
     path : "gridLight",
     element : <GridLight />
+  },{
+    path : "usememo",
+    element : <CustomMemoHook />
   }
 ]);
 

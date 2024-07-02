@@ -10,6 +10,7 @@ const HomePage = () => {
       <Link to="stopwatch">Stop Watch</Link>
       <Link to="tictactoe">tictactoe</Link>
       <Link to="gridlight">GridLight</Link>
+      <Link to="usememo">Custom UseMemo</Link>
     </div>
   );
 };
