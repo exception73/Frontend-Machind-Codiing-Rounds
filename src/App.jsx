@@ -5,6 +5,7 @@ import FileExplorer from './Components/FileExplorer/FileExplorer.jsx';
 import HomePage from './Components/HomePage';
 import PasswordGenerator from './Components/PasswordGenerator/PasswordGenerator.jsx';
 import Timer from './Components/Timer/Timer.jsx';
+import TicTaeToe from './Components/TicTacToe/TicTaeToe.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,9 @@ const router = createBrowserRouter([
   },{
     path : 'stopwatch', 
     element : <Timer />
+  },{
+    path : "tictactoe", 
+    element : <TicTaeToe />
   }
 ]);
 
