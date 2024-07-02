@@ -13,6 +13,8 @@ const HomePage = () => {
       <Link to="usememo">Custom UseMemo</Link>
       <Link to="useEffect">Custom useEffect</Link>
       <Link to="multitheme">MultiTheme</Link>
+      <Link to="throttle">Throtle</Link>
+      <Link to="jobs">Job Board</Link>
     </div>
   );
 };

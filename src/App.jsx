@@ -10,6 +10,8 @@ import GridLight from './Components/GridLight/GridLight.jsx';
 import CustomMemoHook from './Components/UseMemo/CustomMemoHook.jsx';
 import CustomUseEffect from './Components/UseEffect/useEffect.jsx';
 import MultiTheme from './Components/MultiTheme/MultiTheme.jsx';
+import Throttle from './Components/Throttle/Throttle.jsx';
+import JobBoard from './Components/JobBoard/JobBoard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,12 @@ const router = createBrowserRouter([
   }, {
     path : "multitheme", 
     element : <MultiTheme />
+  }  , {
+    path : "throttle", 
+    element : <Throttle />
+  }, {
+    path : "jobs", 
+    element : <JobBoard />
   }
 ]);
 
