@@ -38,7 +38,7 @@ const TicTaeToe = () => {
           
           board?.map((_,index) => {
             // console.log()
-              return <button  disabled={winner ? true : false} key={index} style={{display:'flex', justifyContent:'center', alignItems:'center', height:'80px', width:'80px', margin:'2px'}} onClick={() => handleClick(index)}>{_}</button>
+              return <button  disabled={winner ? true : false} key={index} style={{display:'flex', justifyContent:'center', alignItems:'center', height:'70px', width:'70px', margin:'2px'}} onClick={() => handleClick(index)}>{_}</button>
           })
         }
       </div>
