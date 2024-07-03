@@ -13,6 +13,7 @@ import MultiTheme from './Components/MultiTheme/MultiTheme.jsx';
 import Throttle from './Components/Throttle/Throttle.jsx';
 import JobBoard from './Components/JobBoard/JobBoard.jsx';
 import LruCache from './Components/LRUCache/LruCache.jsx';
+import MultiSearchUsers from './Components/MultiSearch Users/MultiSearchUsers.jsx';
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,9 @@ const router = createBrowserRouter([
   }, {
     path : 'cache', 
     element : <LruCache />
+  }, {
+    path : 'searchUser', 
+    element : <MultiSearchUsers />
   }
 ]);
 

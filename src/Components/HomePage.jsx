@@ -16,6 +16,7 @@ const HomePage = () => {
       <Link to="throttle">Throtle</Link>
       <Link to="jobs">Job Board</Link>
       <Link to="cache">LRU Cache</Link>
+      <Link to='searchUser'>MultiSearch Users with Debouncing</Link>
     </div>
   );
 };
