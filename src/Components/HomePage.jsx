@@ -15,6 +15,7 @@ const HomePage = () => {
       <Link to="multitheme">MultiTheme</Link>
       <Link to="throttle">Throtle</Link>
       <Link to="jobs">Job Board</Link>
+      <Link to="cache">LRU Cache</Link>
     </div>
   );
 };

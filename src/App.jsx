@@ -12,6 +12,7 @@ import CustomUseEffect from './Components/UseEffect/useEffect.jsx';
 import MultiTheme from './Components/MultiTheme/MultiTheme.jsx';
 import Throttle from './Components/Throttle/Throttle.jsx';
 import JobBoard from './Components/JobBoard/JobBoard.jsx';
+import LruCache from './Components/LRUCache/LruCache.jsx';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,9 @@ const router = createBrowserRouter([
   }, {
     path : "jobs", 
     element : <JobBoard />
+  }, {
+    path : 'cache', 
+    element : <LruCache />
   }
 ]);
 

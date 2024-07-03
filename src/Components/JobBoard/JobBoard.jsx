@@ -46,7 +46,7 @@ const JobBoard = () => {
         <div>
             <div ref={jobListRef} style={{ height: '700px', overflow: 'scroll' }}>
                 {jobs.length ? jobs.map((val, ind) => (
-                    <JobCard key={ind} job={val} />
+                    <JobCard bgcolor = {ind&1 ? 'darkgrey' : 'grey'} key={ind} job={val} />
                 )) : <p>Loading Jobs....</p>}
             </div>
             {jobs.length !== jobsId.length ? <button onClick={handleLoadMore}> Show More</button> : <p>No More Jobs :(</p>}
