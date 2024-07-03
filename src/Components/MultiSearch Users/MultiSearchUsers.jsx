@@ -11,7 +11,11 @@ const MultiSearchUsers = () => {
     const inputRef = useRef(null);
 
    async function fetchUsers(e){
-    console.log(e)
+    // console.log(e)
+    if(!e.target.value){
+        (setError(null), setSearchedUsers([]))
+        return;
+    }
         const data = await fetch(`https://dummyjson.com/users/search?q=${e.target.value}`)
         const res = await data.json();
 
