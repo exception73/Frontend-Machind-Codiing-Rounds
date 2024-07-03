@@ -14,6 +14,7 @@ import Throttle from './Components/Throttle/Throttle.jsx';
 import JobBoard from './Components/JobBoard/JobBoard.jsx';
 import LruCache from './Components/LRUCache/LruCache.jsx';
 import MultiSearchUsers from './Components/MultiSearch Users/MultiSearchUsers.jsx';
+import ProgressBar from './Components/ProgressBar/ProgressBar.jsx';
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,9 @@ const router = createBrowserRouter([
   }, {
     path : 'searchUser', 
     element : <MultiSearchUsers />
+  }, {
+    path : 'progressbar',
+    element : <ProgressBar />
   }
 ]);
 
