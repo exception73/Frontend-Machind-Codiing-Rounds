@@ -21,6 +21,7 @@ const HomePage = () => {
       <Link to='searchUser'>MultiSearch Users with Debouncing</Link>
       <Link to='progressBar'> Progress Bar</Link>
       <Link to='dragdrop'> Drag and Drop Notes</Link>
+      <Link to='quiz'> Quiz App </Link>
     </div>
   );
 };

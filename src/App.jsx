@@ -16,6 +16,7 @@ import LruCache from './Components/LRUCache/LruCache.jsx';
 import MultiSearchUsers from './Components/MultiSearch Users/MultiSearchUsers.jsx';
 import ProgressBar from './Components/ProgressBar/ProgressBar.jsx';
 import DragDropNotes from './Components/DragDropNotes/DragDropNotes.jsx';
+import QuizApp from './Components/QuizApplication/QuizApp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,9 @@ const router = createBrowserRouter([
   }, {
     path : 'dragdrop', 
     element : <DragDropNotes />
+  }, {
+    path : 'quiz', 
+    element : <QuizApp />
   }
 ]);
 
