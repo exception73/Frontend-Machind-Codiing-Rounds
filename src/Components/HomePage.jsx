@@ -22,6 +22,7 @@ const HomePage = () => {
       <Link to='progressBar'> Progress Bar</Link>
       <Link to='dragdrop'> Drag and Drop Notes</Link>
       <Link to='quiz'> Quiz App </Link>
+      <Link to='calculator'>Calculator</Link>
     </div>
   );
 };

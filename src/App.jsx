@@ -17,61 +17,27 @@ import MultiSearchUsers from './Components/MultiSearch Users/MultiSearchUsers.js
 import ProgressBar from './Components/ProgressBar/ProgressBar.jsx';
 import DragDropNotes from './Components/DragDropNotes/DragDropNotes.jsx';
 import QuizApp from './Components/QuizApplication/QuizApp.jsx';
+import Calculator from './Components/Calculator/Calculator.jsx';
 
 const router = createBrowserRouter([
-  {
-    path: '/',
-    element : <HomePage />
-  },
-  {
-    path: "/emi",
-    element: <EmiCalculator />,
-  },{
-    path : '/FileExplorer',
-    element : <FileExplorer />
-  },{
-    path : 'password',
-    element : <PasswordGenerator />
-  },{
-    path : 'stopwatch', 
-    element : <Timer />
-  },{
-    path : "tictactoe", 
-    element : <TicTaeToe />
-  },{
-    path : "gridLight",
-    element : <GridLight />
-  },{
-    path : "usememo",
-    element : <CustomMemoHook />
-  }, {
-    path : "useEffect", 
-    element : <CustomUseEffect />
-  }, {
-    path : "multitheme", 
-    element : <MultiTheme />
-  }  , {
-    path : "throttle", 
-    element : <Throttle />
-  }, {
-    path : "jobs", 
-    element : <JobBoard />
-  }, {
-    path : 'cache', 
-    element : <LruCache />
-  }, {
-    path : 'searchUser', 
-    element : <MultiSearchUsers />
-  }, {
-    path : 'progressbar',
-    element : <ProgressBar />
-  }, {
-    path : 'dragdrop', 
-    element : <DragDropNotes />
-  }, {
-    path : 'quiz', 
-    element : <QuizApp />
-  }
+  { path: '/', element: <HomePage /> },
+  { path: '/emi', element: <EmiCalculator /> },
+  { path: '/FileExplorer', element: <FileExplorer /> },
+  { path: '/password', element: <PasswordGenerator /> },
+  { path: '/stopwatch', element: <Timer /> },
+  { path: '/tictactoe', element: <TicTaeToe /> },
+  { path: '/gridLight', element: <GridLight /> },
+  { path: '/usememo', element: <CustomMemoHook /> },
+  { path: '/useEffect', element: <CustomUseEffect /> },
+  { path: '/multitheme', element: <MultiTheme /> },
+  { path: '/throttle', element: <Throttle /> },
+  { path: '/jobs', element: <JobBoard /> },
+  { path: '/cache', element: <LruCache /> },
+  { path: '/searchUser', element: <MultiSearchUsers /> },
+  { path: '/progressbar', element: <ProgressBar /> },
+  { path: '/dragdrop', element: <DragDropNotes /> },
+  { path: '/quiz', element: <QuizApp /> },
+  { path: '/calculator', element: <Calculator /> },
 ]);
 
 function App() {
