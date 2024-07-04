@@ -18,6 +18,7 @@ import ProgressBar from './Components/ProgressBar/ProgressBar.jsx';
 import DragDropNotes from './Components/DragDropNotes/DragDropNotes.jsx';
 import QuizApp from './Components/QuizApplication/QuizApp.jsx';
 import Calculator from './Components/Calculator/Calculator.jsx';
+import Accordion from './Components/Accordion/Accordion.jsx';
 
 const router = createBrowserRouter([
   { path: '/', element: <HomePage /> },
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
   { path: '/dragdrop', element: <DragDropNotes /> },
   { path: '/quiz', element: <QuizApp /> },
   { path: '/calculator', element: <Calculator /> },
+  { path : '/accordion', element : <Accordion /> },
 ]);
 
 function App() {
