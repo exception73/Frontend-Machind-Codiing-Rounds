@@ -14,7 +14,6 @@ const Throttle = () => {
     useEffect(() => {
 
         window.addEventListener('resize',throtle)
-
         return () => {
             window.removeEventListener('resize',throtle);
         }

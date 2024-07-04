@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
+
+ 
   return (
     <div className="centered-container">
       <Link to="emi">EMI Calculator</Link>
@@ -18,6 +20,7 @@ const HomePage = () => {
       <Link to="cache">LRU Cache</Link>
       <Link to='searchUser'>MultiSearch Users with Debouncing</Link>
       <Link to='progressBar'> Progress Bar</Link>
+      <Link to='dragdrop'> Drag and Drop Notes</Link>
     </div>
   );
 };
