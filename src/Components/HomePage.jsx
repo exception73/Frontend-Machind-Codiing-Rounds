@@ -16,7 +16,7 @@ const HomePage = () => {
       <Link to="useEffect">Custom useEffect</Link>
       <Link to="multitheme">MultiTheme</Link>
       <Link to="throttle">Throtle</Link>
-      <Link to="jobs">Job Board</Link>
+      <Link to="jobs">Job Board/Pagination</Link>
       <Link to="cache">LRU Cache</Link>
       <Link to='searchUser'>MultiSearch Users with Debouncing</Link>
       <Link to='progressBar'> Progress Bar</Link>
@@ -24,6 +24,7 @@ const HomePage = () => {
       <Link to='quiz'> Quiz App </Link>
       <Link to='calculator'>Calculator</Link>
       <Link to='accordion'>Accordian</Link>
+      <Link to='infinitescroll'>Infinite Scroll</Link>
     </div>
   );
 };
