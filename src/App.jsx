@@ -20,6 +20,8 @@ import QuizApp from './Components/QuizApplication/QuizApp.jsx';
 import Calculator from './Components/Calculator/Calculator.jsx';
 import Accordion from './Components/Accordion/Accordion.jsx';
 import InfiniteScroll from './Components/InfiniteScroll/InfiniteScroll.jsx';
+import DragDropGroups from './Components/DragDropGroupsItems/DragDropGroups.jsx';
+import SelectableGrid from './Components/Selectable Grid/SelectableGrid.jsx';
 
 const router = createBrowserRouter([
   { path: '/', element: <HomePage /> },
@@ -42,6 +44,8 @@ const router = createBrowserRouter([
   { path: '/calculator', element: <Calculator /> },
   { path : '/accordion', element : <Accordion /> },
   { path : '/infinitescroll', element : <InfiniteScroll /> },
+  { path : '/dragdropgroups', element : <DragDropGroups /> },
+  { path : '/selectablegrid', element : <SelectableGrid /> },
 ]);
 
 function App() {

@@ -19,7 +19,7 @@ const Accordion = () => {
         {
             message.map((val, ind) => {
                 return (
-                    <div key={ind}  onClick = {() => setId(ind)} style={{width: 500, margin:30, backgroundColor:'#0e1111', padding:20, borderRadius:10}}>
+                    <div key={ind}  onClick = {() => {(id == ind) ? setId(-1) : setId(ind)}} style={{width: 500, margin:30, backgroundColor:'#0e1111', padding:20, borderRadius:10}}>
                         <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', cursor:'pointer'}}>
                             <span>
                             Number : {ind}

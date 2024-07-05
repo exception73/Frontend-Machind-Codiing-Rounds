@@ -25,6 +25,8 @@ const HomePage = () => {
       <Link to='calculator'>Calculator</Link>
       <Link to='accordion'>Accordian</Link>
       <Link to='infinitescroll'>Infinite Scroll</Link>
+      <Link to='dragdropgroups'>Drag Drop Groups Item</Link>
+      <Link to='selectablegrid'>Selectable Grid</Link>
     </div>
   );
 };
